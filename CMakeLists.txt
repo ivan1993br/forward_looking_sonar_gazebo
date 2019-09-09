@@ -32,6 +32,7 @@ include_directories(
 )
 
 
+
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${GAZEBO_CXX_FLAGS}")
 set(ROSLINT_CPP_OPTS "--extensions=hpp,cpp,c,hh,cc,h")
 
