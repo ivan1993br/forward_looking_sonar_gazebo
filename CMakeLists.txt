@@ -13,7 +13,6 @@ find_package(Boost REQUIRED)
 
 set(FORWARD_LOOKING_SONAR_GAZEBO "")
 
-
 catkin_package(
   INCLUDE_DIRS include
     ${GAZEBO_INCLUDE_DIRS}
